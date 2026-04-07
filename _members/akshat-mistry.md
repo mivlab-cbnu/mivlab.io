@@ -2,7 +2,7 @@
 name: Akshat Mistry
 image: /images/team/akshat-mistry.png
 role: member
-description: Visiting Student
+description: Research Engineer
 country: "in"
 
 aliases:
@@ -16,9 +16,9 @@ links:
   email: akshat.mistry@mbzuai.ac.ae
 ---
 
-Akshat is a visiting student at **MBZUAI** in the Computational Biology and Cancer Regulatory Genomics (CBCRG) Lab and a postgraduate student in Bioinformatics at the **University of Birmingham**, Dubai.
+Akshat is a Research Engineer in the Computational Biology and Cancer Regulatory Genomics (CBCRG) Lab at **MBZUAI**. He holds a Master of Science in Bioinformatics from the **University of Birmingham**, and brings expertise in bioinformatics pipeline development, genomic data analysis, and machine learning applications in computational biology.
 
-With a background in software development, he applies skills in web development, cloud computing, machine learning, and next-generation sequencing (NGS) to problems in healthcare and research. His interests lie at the intersection of software engineering, machine learning, and biology, particularly in developing user-friendly bioinformatics tools and applications that support diagnostics and personalized medicine.
+With a background in software development, he combines skills in web development, cloud computing, and machine learning to develop robust bioinformatics tools and support high-impact regulatory genomics research. His focus is on developing user-friendly applications and pipelines that facilitate diagnostics, personalized medicine, and scientific discovery.
 
 {% include section.html %}
 

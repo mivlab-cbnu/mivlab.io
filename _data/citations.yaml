@@ -1,5 +1,56 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41586-025-09930-y
+  title: Polyclonal origins of human premalignant colorectal lesions
+  authors:
+  - Debra Van Egeren
+  - Ryan O. Schenck
+  - Aziz Khan
+  - Aaron M. Horning
+  - Shanlan Mo
+  - "Clemens L. Wei\xDF"
+  - Edward D. Esplin
+  - Winston R. Becker
+  - Si Wu
+  - Casey Hanson
+  - Nasim Barapour
+  - Lihua Jiang
+  - "K\xE9vin Contrepois"
+  - Hayan Lee
+  - Stephanie A. Nevins
+  - Tuhin K. Guha
+  - Hao Zhang
+  - Zhen He
+  - Zhicheng Ma
+  - Emma Monte
+  - Thomas V. Karathanos
+  - Rozelle Laquindanum
+  - Meredith A. Mills
+  - Hassan Chaib
+  - Roxanne Chiu
+  - Ruiqi Jian
+  - Joanne Chan
+  - Mathew Ellenberger
+  - Bahareh Bahmani
+  - Basil Michael
+  - Annika K. Weimer
+  - D. Glen Esplin
+  - Samuel Lancaster
+  - Jeanne Shen
+  - Uri Ladabaum
+  - Teri A. Longacre
+  - Anshul Kundaje
+  - William J. Greenleaf
+  - Zheng Hu
+  - James M. Ford
+  - Michael P. Snyder
+  - Christina Curtis
+  publisher: Nature
+  date: '2025-11-25'
+  link: https://doi.org/hbcx45
+  orcid: 0000-0002-6459-6224
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s43018-026-01114-5
   title: Temporal and spatial composition of the tumor microenvironment predicts response
     to immune checkpoint inhibition in metastatic TNBC
@@ -105,57 +156,6 @@
   publisher: openRxiv
   date: '2025-12-02'
   link: https://doi.org/hbdw8g
-  orcid: 0000-0002-6459-6224
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/s41586-025-09930-y
-  title: Polyclonal origins of human premalignant colorectal lesions
-  authors:
-  - Debra Van Egeren
-  - Ryan O. Schenck
-  - Aziz Khan
-  - Aaron M. Horning
-  - Shanlan Mo
-  - "Clemens L. Wei\xDF"
-  - Edward D. Esplin
-  - Winston R. Becker
-  - Si Wu
-  - Casey Hanson
-  - Nasim Barapour
-  - Lihua Jiang
-  - "K\xE9vin Contrepois"
-  - Hayan Lee
-  - Stephanie A. Nevins
-  - Tuhin K. Guha
-  - Hao Zhang
-  - Zhen He
-  - Zhicheng Ma
-  - Emma Monte
-  - Thomas V. Karathanos
-  - Rozelle Laquindanum
-  - Meredith A. Mills
-  - Hassan Chaib
-  - Roxanne Chiu
-  - Ruiqi Jian
-  - Joanne Chan
-  - Mathew Ellenberger
-  - Bahareh Bahmani
-  - Basil Michael
-  - Annika K. Weimer
-  - D. Glen Esplin
-  - Samuel Lancaster
-  - Jeanne Shen
-  - Uri Ladabaum
-  - Teri A. Longacre
-  - Anshul Kundaje
-  - William J. Greenleaf
-  - Zheng Hu
-  - James M. Ford
-  - Michael P. Snyder
-  - Christina Curtis
-  publisher: Nature
-  date: '2025-11-25'
-  link: https://doi.org/hbcx45
   orcid: 0000-0002-6459-6224
   plugin: orcid.py
   file: orcid.yaml
@@ -451,7 +451,7 @@
   - Aziz Khan
   - Jaime Abraham Castro-Mondragon
   - Anthony Mathelier
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-11-17'
   link: https://doi.org/g87ff7
   orcid: 0000-0002-6459-6224
@@ -479,7 +479,7 @@
   - Benjamin Schwessinger
   - Humberto J. Debat
   - Tomislav Mestrovic
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-04-03'
   link: https://doi.org/gh45db
   orcid: 0000-0002-6459-6224
@@ -707,7 +707,7 @@
   - Aziz Khan
   - Anthony Mathelier
   - Xuegong Zhang
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2018-04-30'
   link: https://doi.org/gktscf
   orcid: 0000-0002-6459-6224
@@ -924,7 +924,7 @@
   - Oleksandr Moskalenko
   - Gordon Stephen
   - "Johannes K\xF6ster"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2017-10-21'
   link: https://doi.org/gcjkpk
   orcid: 0000-0002-6459-6224
