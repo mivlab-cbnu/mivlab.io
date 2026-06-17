@@ -80,3 +80,4 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - tools/index.md

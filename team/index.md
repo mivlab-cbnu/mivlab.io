@@ -29,7 +29,7 @@ We are hiring at [all levels](/join/). Please send your CV with a cover email ex
 %}
 {% include section.html %}
 
-## Our Allumni
+## Our Alumni
 
 {% include list.html data="members" component="portrait-alumni" filter="alumni == true" style="small" %}
 
