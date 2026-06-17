@@ -1,8 +1,8 @@
 # site properties and page defaults
-title: <b><font color="#2b94c8">KHAN</font></b><font color="#6eceec">Lab</font><b><font color="#3ab190">.bio</font></b>
-subtitle: Computational Biology & Cancer Regulatory Genomics Lab @ MBZUAI
+title: mivlab-cbnu
+subtitle: 
 socialtitle: Computational Biology and Cancer Regulatory Genomics Lab - Aziz Khan
-description: The CBCRG lab develops and use cutting-edge open-source tools, methods, and resources to analyze, integrate, and interpret large-scale multi-omics and multi-ethnic data to advance precision medicine.
+description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/banner.jpg
 logo: images/logo.png
@@ -16,10 +16,10 @@ baseurl:
 
 # site social media and other links
 links:
-  email: aziz.khan@mbzuai.ac.ae
+  email: contact@mivlab-cbnu.com
   orcid: 0000-0002-6459-6224
   google-scholar: m23RfrcAAAAJ&sortby=pubdate
-  github: khan-lab
+  github: mivlab-cbnu
   bluesky: khanlab.bio
   # twitter: khanaziz84
   # youtube: YourLabChannel
