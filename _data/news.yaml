@@ -9,16 +9,25 @@
 # Otherwise, leave `link` blank.
 # Please add the new entries on the top although these are sorted by date.
 
+- title: New members
+  date: 2026-03-01
+  description: Seunghyun, Sihyun, Minwoo and Seonyo have joined as undergraduate interns. Welcome aboard!  
+  url: 
 
-- title: Talk at NUST Islamabad
-  date: 2025-02-17
-  description: Aziz was invited to speak at the School of Interdisciplinary Engineering & Science (SINES), NUST iTalks Seminar Series.
-  url:
+- title: Awards
+  date: 2025-09-25
+  description: Our paper won the Sadaoki Furui Prize Paper Award (Overview paper award category) from APSIPA!  url:
+  url: https://www.apsipa.org/awards.aspx
+
+- title: Publications
+  date: 2025-05-01
+  description: One paper was accepted to ACS Sensors (IF 8.3).
+  url: https://pubs.acs.org/doi/abs/10.1021/acssensors.4c03602
 
 - title: Publications
   date: 2025-03-15
   description: One paper was accepted to TIP (IF 10.8).
-  url:
+  url: https://ieeexplore.ieee.org/abstract/document/11008464
 
 - title: New beginnings
   date: 2025-03-02
