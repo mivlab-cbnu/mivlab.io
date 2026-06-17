@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: mivlab-cbnu
-subtitle: 
-socialtitle: Computational Biology and Cancer Regulatory Genomics Lab - Aziz Khan
+subtitle: Machine Intelligence and Vision Laboratory @CBNU
+socialtitle:  Biology and Cancer Regulatory Genomics Lab - Aziz Khan
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/banner.jpg
@@ -20,7 +20,7 @@ links:
   orcid: 0000-0002-6459-6224
   google-scholar: m23RfrcAAAAJ&sortby=pubdate
   github: mivlab-cbnu
-  bluesky: khanlab.bio
+  # bluesky: khanlab.bio
   # twitter: khanaziz84
   # youtube: YourLabChannel
 
