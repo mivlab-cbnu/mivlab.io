@@ -70,4 +70,273 @@
   orcid: 0000-0001-9880-2850
   plugin: orcid.py
   file: orcid.yaml
-
+- id: doi:10.1126/science.adh8697
+  title: Germline-mediated immunoediting sculpts breast cancer subtypes and metastatic
+    proclivity
+  authors:
+  - Kathleen E. Houlahan
+  - Aziz Khan
+  - Noah F. Greenwald
+  - Cristina Sotomayor Vivas
+  - Robert B. West
+  - Michael Angelo
+  - Christina Curtis
+  publisher: Science
+  date: '2024-05-31'
+  link: https://doi.org/gt3wh4
+  image: https://www.science.org/cms/10.1126/science.adh8697/asset/f88a067e-6fb6-49db-88d1-c022946f7fa2/assets/images/large/science.adh8697-fa.jpg
+  category: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41586-024-08377-x
+  title: Complex rearrangements fuel ER+ and HER2+ breast tumours
+  authors:
+  - Kathleen E. Houlahan
+  - Lise Mangiante
+  - Cristina Sotomayor-Vivas
+  - Alvina Adimoelja
+  - Seongyeol Park
+  - Aziz Khan
+  - Sophia J. Pribus
+  - Zhicheng Ma
+  - Jennifer L. Caswell-Jin
+  - Christina Curtis
+  publisher: Nature
+  date: '2025-01-08'
+  link: https://doi.org/g8zjtk
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-024-08377-x/MediaObjects/41586_2024_8377_Fig1_HTML.png
+  category: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/nar/gkx1126
+  title: 'JASPAR 2018: update of the open-access database of transcription factor
+    binding profiles and its web framework'
+  authors:
+  - Aziz Khan
+  - Oriol Fornes
+  - Arnaud Stigliani
+  - Marius Gheorghe
+  - Jaime A Castro-Mondragon
+  - "Robin van\_der\_Lee"
+  - Adrien Bessy
+  - "Jeanne Ch\xE8neby"
+  - Shubhada R Kulkarni
+  - Ge Tan
+  - Damir Baranasic
+  - David J Arenillas
+  - Albin Sandelin
+  - Klaas Vandepoele
+  - Boris Lenhard
+  - "Beno\xEEt Ballester"
+  - Wyeth W Wasserman
+  - "Fran\xE7ois Parcy"
+  - Anthony Mathelier
+  publisher: Nucleic Acids Research
+  date: '2017-11-13'
+  link: https://doi.org/ckpt
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/Issue/46/D1/2/m_cover.gif?Expires=1744459365&Signature=g6NUrK6VKf1dcsBKINZe6ug45Z5UOL9w5COuRAuVNT36P2-zA-XPIYvgwozhHbKSfLx9KMU~QLnRTDrBQtXoqFmOL34beWHhE10xMb8gghA3LpVquyxlxrH5fQJ-375mPCmH0SOGjeMur8fxmcwaDvdVafKyTYtUhEKMMjpObkb84GEiv15rjg3TK5v3rQLq041QE0qdZm57OlDrfYIDXdv4p1rTR1iMAkqiaaUh~c2QkVVopPhjItKzn4hJo4tubmojbJwiFf-Srv9B9xWFH68jnn4b3wv5s7s~uH50GDuwzH9joTICTS7l1eECgluNsIMh4aV0Dx8mzDrbF7XY0Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bioinformatics/btx804
+  title: 'JASPAR RESTful API: accessing JASPAR data from any programming language'
+  authors:
+  - Aziz Khan
+  - Anthony Mathelier
+  publisher: Bioinformatics
+  date: '2017-12-15'
+  link: https://doi.org/ckps
+  image: images/publications/bioinformatics_cover.jpeg
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/asntech/intervene
+  tags:
+  - open-source
+  - software
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41586-023-06102-8
+  title: Deterministic evolution and stringent selection during preneoplasia
+  authors:
+  - Kasper Karlsson
+  - Moritz J. Przybilla
+  - Eran Kotler
+  - Aziz Khan
+  - Hang Xu
+  - Kremena Karagyozova
+  - Alexandra Sockell
+  - Wing H. Wong
+  - Katherine Liu
+  - Amanda Mah
+  - Yuan-Hung Lo
+  - Bingxin Lu
+  - Kathleen E. Houlahan
+  - Zhicheng Ma
+  - Carlos J. Suarez
+  - Chris P. Barnes
+  - Calvin J. Kuo
+  - Christina Curtis
+  publisher: Nature
+  date: '2023-05-31'
+  link: https://doi.org/gsbs9w
+  image: https://www.biorxiv.org/content/biorxiv/early/2022/04/28/2022.04.09.487529/F1.large.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.xpro.2022.101927
+  title: Somatic variant detection from multi-sampled genomic sequencing data of tumor
+    specimens using the ith.Variant pipeline
+  authors:
+  - Nicole Maeser
+  - Aziz Khan
+  - Ruping Sun
+  publisher: STAR Protocols
+  date: '2023-03-01'
+  link: https://doi.org/g87tb4
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666166722008073-fx1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41562-021-01067-y
+  title: Changing scientific meetings for the better
+  authors:
+  - Sarvenaz Sarabipour
+  - Aziz Khan
+  - Yu Fen Samantha Seah
+  - Aneth D. Mwakilili
+  - Fiona N. Mumoki
+  - "Pablo J. S\xE1ez"
+  - Benjamin Schwessinger
+  - Humberto J. Debat
+  - Tomislav Mestrovic
+  publisher: Nature Human Behaviour
+  date: '2021-03-15'
+  link: https://doi.org/gjgnkq
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-021-01067-y/MediaObjects/41562_2021_1067_Fig1_HTML.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bioinformatics/btaa928
+  title: 'BiasAway: command-line and web server to generate nucleotide composition-matched
+    DNA background sequences'
+  authors:
+  - Aziz Khan
+  - Rafael Riudavets Puig
+  - Paul Boddie
+  - Anthony Mathelier
+  publisher: Bioinformatics
+  date: '2020-11-02'
+  link: https://doi.org/g87ft6
+  image: images/publications/bioinformatics_cover.jpeg
+  buttons:
+  - type: source
+    text: Source Code
+    link: https://github.com/asntech/intervene
+  tags:
+  - open-source
+  - software
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/nar/gkv1002
+  title: 'dbSUPER: a database of super-enhancers in mouse and human genome'
+  authors:
+  - Aziz Khan
+  - Xuegong Zhang
+  publisher: Nucleic Acids Research
+  date: '2016-01-04'
+  link: https://doi.org/f8ckzg
+  type: paper
+  description: dbSUPER is the first database of super-enhancers and Aziz's first publication
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/Issue/46/D1/2/m_cover.gif?Expires=1744459365&Signature=g6NUrK6VKf1dcsBKINZe6ug45Z5UOL9w5COuRAuVNT36P2-zA-XPIYvgwozhHbKSfLx9KMU~QLnRTDrBQtXoqFmOL34beWHhE10xMb8gghA3LpVquyxlxrH5fQJ-375mPCmH0SOGjeMur8fxmcwaDvdVafKyTYtUhEKMMjpObkb84GEiv15rjg3TK5v3rQLq041QE0qdZm57OlDrfYIDXdv4p1rTR1iMAkqiaaUh~c2QkVVopPhjItKzn4hJo4tubmojbJwiFf-Srv9B9xWFH68jnn4b3wv5s7s~uH50GDuwzH9joTICTS7l1eECgluNsIMh4aV0Dx8mzDrbF7XY0Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  buttons:
+  - type: website
+    link: https://asntech.org/dbsuper
+  tags:
+  - open-source
+  - database
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/nar/gkad1059
+  title: 'JASPAR 2024: 20th anniversary of the open-access database of transcription
+    factor binding profiles'
+  authors:
+  - Ieva Rauluseviciute
+  - Rafael Riudavets-Puig
+  - Romain Blanc-Mathieu
+  - "Jaime\_A Castro-Mondragon"
+  - Katalin Ferenc
+  - Vipin Kumar
+  - Roza Berhanu Lemma
+  - "J\xE9r\xE9my Lucas"
+  - "Jeanne Ch\xE8neby"
+  - Damir Baranasic
+  - Aziz Khan
+  - Oriol Fornes
+  - Sveinung Gundersen
+  - Morten Johansen
+  - Eivind Hovig
+  - Boris Lenhard
+  - Albin Sandelin
+  - "Wyeth\_W Wasserman"
+  - "Fran\xE7ois Parcy"
+  - Anthony Mathelier
+  publisher: Nucleic Acids Research
+  date: '2023-11-14'
+  link: https://doi.org/gs4n8b
+  image: images/publications/jaspar.jpeg
+  buttons:
+  - type: website
+    text: JASPAR
+    link: https://jaspar.elixir.no/
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/nar/gkab1113
+  title: 'JASPAR 2022: the 9th release of the open-access database of transcription
+    factor binding profiles'
+  authors:
+  - Jaime A Castro-Mondragon
+  - Rafael Riudavets-Puig
+  - Ieva Rauluseviciute
+  - "Roza Berhanu\_Lemma"
+  - Laura Turchi
+  - Romain Blanc-Mathieu
+  - Jeremy Lucas
+  - Paul Boddie
+  - Aziz Khan
+  - "Nicol\xE1s Manosalva\_P\xE9rez"
+  - Oriol Fornes
+  - "Tiffany\_Y Leung"
+  - Alejandro Aguirre
+  - Fayrouz Hammal
+  - Daniel Schmelter
+  - Damir Baranasic
+  - Benoit Ballester
+  - Albin Sandelin
+  - Boris Lenhard
+  - Klaas Vandepoele
+  - Wyeth W Wasserman
+  - "Fran\xE7ois Parcy"
+  - Anthony Mathelier
+  publisher: Nucleic Acids Research
+  date: '2021-11-30'
+  link: https://doi.org/gpm2rq
+  image: images/publications/jaspar.jpeg
+  buttons:
+  - type: website
+    text: JASPAR 2022
+    link: https://jaspar2022.genereg.net/
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.15252/embr.201845731
+  title: Put science first and formatting later
+  authors:
+  - Aziz Khan
+  - "Alejandro Montenegro\u2010Montero"
+  - Anthony Mathelier
+  publisher: The EMBO Reports
+  date: '2018-04-12'
+  link: https://doi.org/cnhd
+  image: https://www.embopress.org/cms/10.15252/embr.201845731/asset/33a00ee6-e8b6-4731-a443-5e9570915f8a/assets/graphic/embr201845731-fig-0001-m.png
+  buttons:
+  - type: website
+    text: F1000 Feedback
+    link: https://archive.connect.h1.co/article/733031605/
+  plugin: sources.py
+  file: sources.yaml
