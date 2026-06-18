@@ -20,3 +20,10 @@
     - open-source
     - software
 
+# some paper returned by an ORCID with a wrong title
+# - id: doi:123/456
+#   title: Correct Title
+
+# some paper returned by an ORCID that you don't want to keep at all
+# - id: pubmed:123456
+  # remove: true
