@@ -5,9 +5,9 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Our Research Publications
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-We publish high-impact peer-reviewed research papers in leading journals across diverse topics from genomics, epigenomic, machine learning, cancer genomics, and science policy.
+<!-- We publish high-impact peer-reviewed research papers in leading journals across diverse topics from genomics, epigenomic, machine learning, cancer genomics, and science policy. -->
 
 {% include section.html %}
 

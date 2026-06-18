@@ -7,7 +7,7 @@ nav:
 
 {% capture col1 %}
 
-### {% include icon.html icon="fa-solid fa-newspaper" %}News and updates
+### {% include icon.html icon="fa-solid fa-newspaper" %}News
 
 {% include list.html data="news" component="news" %}
 
