@@ -1,20 +1,32 @@
 ---
 ---
-## We develop and utilize cutting-edge **open-source** tools, methods, and resources to *analyze*, *integrate*, and *interpret* large-scale **diverse multi-omics** cancer data; and to understand **gene regulation** and decipher the role of the non-coding **regulatory genome** to advance **precision medicine**.
+## Machine Intelligence and Vision Laboratory (MIVLab) is committed to advancing both the **theoretical foundations** and practical applications of Machine Intelligence. We strive to deliver innovative solutions to **real-world challenges** in computer vision, healthcare, and beyond.
+
 
 {% include section.html %}
 
-## Our vision and mission
-> ##### "**Science and everyday life cannot and should not be separated**." *— Rosalind Franklin*
+## Notice
+<!-- > ##### "**Science and everyday life cannot and should not be separated**." *— Rosalind Franklin* -->
+Machine Intelligence and Vision Laboratory is looking for self-motivated Master and Ph.D students in Artificial Intelligence, Deep Learning, and Signal/Image Processing. (Currently, we are not accepting applications from international students.)
 
-{% capture text %}
-
-Our research bridges biology, multi-omics, machine learning, and data science to understand how gene regulation shapes health and diseases like cancer. We aim to advance precision medicine through innovative, collaborative research — using diverse multi-omic datasets and more complete, inclusive reference genomes.
+If you are interested in joining our team, please send your cv and statement of research interest to Prof. Chaehwa Yoo.  
 
 {%
   include button.html
-  link="publications"
-  text="Explore our latest research"
+  link="contact"
+  text="Contact us"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+%}
+
+<!-- 
+{% capture text %}
+
+
+{%
+  include button.html
+  link="contact"
+  text="Contact us"
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
@@ -27,8 +39,8 @@ Our research bridges biology, multi-omics, machine learning, and data science to
   link="publications"
   title="We bridge biology, multi-omics, AI, and data science"
   text=text
-%}
-
+%} -->
+<!-- 
 {% capture text %}
 
 We strongly believe in global access to open and reproducible science. Our tools, software, and resources are openly licensed and freely available for all to use and build upon. By fostering a culture of collaboration and transparency, we aim to accelerate scientific discovery and innovation that benefit all.
@@ -51,8 +63,8 @@ We strongly believe in global access to open and reproducible science. Our tools
   flip=true
   style="bare"
   text=text
-%}
-
+%} -->
+<!-- 
 {% capture text %}
 
 We are training and building a collaborative team of responsible researchers united by a shared vision. We are committed to create an inclusive environment and recognize that diversity — in people, ideas, and data — is essential for scientific creativity and discovery.
@@ -66,20 +78,20 @@ We are training and building a collaborative team of responsible researchers uni
 
 %}
 
-{% endcapture %}
-
+{% endcapture %} -->
+<!-- 
 {%
   include feature.html
   image="images/home/team.jpeg"
   link="join"
   title="Training the next generation of scientists"
   text=text
-%}
+%} -->
 
 {% include section.html %}
 
 {% capture col1 %}
-## {% include icon.html icon="fa-solid fa-newspaper" %}Lab latest news
+## {% include icon.html icon="fa-solid fa-newspaper" %}Latest news
 
   {% assign sorted_news = site.data.news | sort: "date" | reverse %}
     {% for post in sorted_news limit:3 %}

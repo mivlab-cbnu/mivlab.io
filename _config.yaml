@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: mivlab
-subtitle: Machine Intelligence and Vision Laboratory @ CBNU
+subtitle: MIVLab
 socialtitle:  MIVLab
 description: Machine Intelligence and Vision Laboratory 
 header: images/background.jpg
@@ -11,7 +11,7 @@ show-subtitle: true
 logo-text: true
 
 proofer: false
-url: https://khanlab.bio
+url: https://mivlab-cbnu.github.io
 baseurl:
 
 # site social media and other links
@@ -80,4 +80,5 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-  # - tools/index.md
+  - tools/index.md
+  - join/index.md

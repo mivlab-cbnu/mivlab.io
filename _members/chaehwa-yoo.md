@@ -1,40 +1,42 @@
 ---
-name: Aziz Khan
+name: Chaehwa Yoo
 image: /images/team/aziz.jpg
 role: principal-investigator
 # affiliation: MBZUAI
-country: "no"
+country: "ko"
 aliases:
-  - A. Khan
-  - Aziz Khan
-  - A Khan
+  - Chaehwa Yoo 
+  - Chae Hwa Yoo
 links:
-  google-scholar: m23RfrcAAAAJ&sortby=pubdate
-  home-page: https://mbzuai.ac.ae/study/faculty/aziz-khan/
-  bluesky: khanlab.bio
-  github: asntech
-  orcid: 0000-0002-6459-6224
+  google-scholar: BEhSvN4AAAAJ&sortby=pubdate
+  # home-page: https://mbzuai.ac.ae/study/faculty/aziz-khan/
+  # bluesky: khanlab.bio
+  # github: asntech
+  orcid: 0000-0001-9880-2850
   #twitter: khanaziz84
-  email: aziz.khan@mbzuai.ac.ae
+  email: chaehway@chungbuk.ac.kr
 ---
 
-Aziz is an Assistant Professor of Computational Biology at [**MBZUAI**](https://mbzuai.ac.ae/study/faculty/aziz-khan/), leading the Computational Biology and Cancer Regulatory Genomics (**CBCRG**) Lab in Abu Dhabi. He has a PhD in Bioinformatics from Tsinghua University with [Xuegong Zhang](https://eca.xglab.tech/member/index.html) followed by a Postdoc at NCMM, University of Oslo with [Anthony Mathelier](https://mathelierlab.com/). His research bridges computational biology, genomics, epigenomics, machine learning, and software engineering to understand gene regulation in diseases such as cancer.
+Chaehwa Yoo is an Assistant Professor of Electrical Engineering at Chungbuk National University[**MBZUAI**](https://mbzuai.ac.ae/study/faculty/aziz-khan/), leading the Machine Intelligence and Vision Lab (**MIVLab**) in Cheongju, Korea. She has a PhD in Electronic and Electrical Engineering from Ewha Womans University with [Prof. Je-Won Kang](https://eca.xglab.tech/member/index.html) followed by a Postdoc at NCMM, University of Oslo with [Anthony Mathelier](https://mathelierlab.com/). His research bridges computational biology, genomics, epigenomics, machine learning, and software engineering to understand gene regulation in diseases such as cancer.
 
 Previously, Aziz was a senior research scientist at Stanford Cancer Institute, Stanford University with [Christina Curtis](https://med.stanford.edu/curtislab.html) where he led a bioinformatics team and developed scalable infrastructure for analyzing large-scale cancer multi-omic datasets. He contributed to major consortiums, including the [Human Tumor Atlas Network (HTAN)](https://humantumoratlas.org/) and the [Metastasis Research Network (MetNet)](https://www.cancer.gov/about-nci/organization/dcb/research-programs/metnet). At Stanford University he also served as an [Instructor](https://explorecourses.stanford.edu/instructor/azizk) for Stanford Biosciences to develop and teach a course on the art of reproducible science.
 
-He is a strong advocate for open, reproducible, and collaborative science. He has developed widely used bioinformatics [tools and resources](/tools) such as JASPAR, Intervene, dbSUPER, and UniBind, which have become essential resources in gene regulation. He is also a [Certified Instructor](https://carpentries.org/community/instructors/){:target="\_blank"} for The Carpentries, providing hands-on training in software and genomics data science. He was an eLife and ASAPbio Community Ambassador and actively promoted preprints, open-science, and reproducibility.
+<!-- He is a strong advocate for open, reproducible, and collaborative science. He has developed widely used bioinformatics [tools and resources](/tools) such as JASPAR, Intervene, dbSUPER, and UniBind, which have become essential resources in gene regulation. He is also a [Certified Instructor](https://carpentries.org/community/instructors/){:target="\_blank"} for The Carpentries, providing hands-on training in software and genomics data science. He was an eLife and ASAPbio Community Ambassador and actively promoted preprints, open-science, and reproducibility. -->
 
 {% include section.html %}
 
-## Education and certifications
+## Education
 
-- _Postdoctoral Fellow_, NCMM, University of Oslo, Norway (2019)
-- _PhD in Bioinformatics_, Tsinghua University, China (2016)
-- _Teaching Certificate_, CIRTL, Stanford University, USA (2024)
+- _Postdoctoral Fellow_, ICPLab, Ewha Womans University, Seoul, Korea (2025)
+- _PhD in Electonic and Electrical Engineering, Ewha Womans University, Seoul, Korea (2025)
+- Ph.D. in Electronic and Electrical Engineering, Ewha Womans University, Korea, 2024
+- BS in Electronics Engineering, Ewha Womans University, Korea, 2018
+
+<!-- - _Teaching Certificate_, CIRTL, Stanford University, USA (2024)
 - _PMP Certification_, Project Management Institute (2024)
 - _Certified Carpentries Instructor_, The Carpentries (2023)
 - _Researcher Management and Leadership Training_, University of Colorado/Coursera (2024)
-- _NASA Open Science Certificate_, National Aeronautics and Space Administration (NASA), (2024)
+- _NASA Open Science Certificate_, National Aeronautics and Space Administration (NASA), (2024) -->
 
 ## Teaching courses and workshops
 

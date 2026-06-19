@@ -1,8 +1,8 @@
 ---
-title: Team
+title: About us
 nav:
-  order: 3
-  tooltip: Meet our team
+  order: 1
+  # tooltip: Meet our team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Meet Our Team
@@ -16,6 +16,7 @@ We are hiring at [all levels](/join/). Please send your CV with a cover email ex
 
 {% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and alumni != true" %}
 
+<!-- 
 {% include section.html background="images/banner.jpg" dark=true %}
 
 #### <center>We strive to build an inclusive environment for research and recognize the value of diversity in the process of scientific creativity and discovery.</center>
@@ -26,7 +27,7 @@ We are hiring at [all levels](/join/). Please send your CV with a cover email ex
   text="Join the Team"
   link="join"
   style="button"
-%}
+%} -->
 {% include section.html %}
 
 ## Our Alumni

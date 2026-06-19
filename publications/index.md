@@ -1,8 +1,8 @@
 ---
 title: Publications
 nav:
-  order: 1
-  tooltip: Published works
+  order: 2
+  # tooltip: Published works
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications
@@ -15,7 +15,7 @@ nav:
   include button.html
   icon="fa-brands fa-google"
   text="More on Google Scholar"
-  link="https://scholar.google.com/citations?hl=en&user=m23RfrcAAAAJ&view_op=list_works&sortby=pubdate"
+  link="https://scholar.google.com/citations?hl=en&user=BEhSvN4AAAAJ&view_op=list_works&sortby=pubdate"
 %}
 
 ## All publications
@@ -25,3 +25,9 @@ nav:
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
+
+{% include section.html %}
+
+## Patents
+
+

@@ -2,7 +2,7 @@
 title: News
 nav:
   order: 5
-  tooltip: Lab news and updates
+  # tooltip: 
 ---
 
 {% capture col1 %}

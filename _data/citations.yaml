@@ -70,21 +70,3 @@
   orcid: 0000-0001-9880-2850
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/bioinformatics/btx804
-  title: 'JASPAR RESTful API: accessing JASPAR data from any programming language'
-  authors:
-  - Aziz Khan
-  - Anthony Mathelier
-  publisher: Bioinformatics
-  date: '2017-12-15'
-  link: https://doi.org/ckps
-  image: images/publications/bioinformatics_cover.jpeg
-  buttons:
-  - type: source
-    text: Source Code
-    link: https://github.com/asntech/intervene
-  tags:
-  - open-source
-  - software
-  plugin: sources.py
-  file: sources.yaml
