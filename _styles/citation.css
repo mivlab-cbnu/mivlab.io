@@ -68,6 +68,16 @@
   color: var(--gray);
 }
 
+.citation-status {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--muted-background, #f0f0f0);
+  color: var(--muted-text, #333);
+  font-size: 0.85em;
+  vertical-align: middle;
+}
+
 .citation-buttons {
   display: flex;
   flex-wrap: wrap;

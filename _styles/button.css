@@ -2,6 +2,15 @@ button {
   cursor: pointer;
 }
 
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
 .button-wrapper {
   display: contents;
 }

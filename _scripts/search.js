@@ -50,6 +50,11 @@
   const elementMatches = (element, { terms, phrases, tags }) => {
     // tag elements within element
     const tagElements = [...element.querySelectorAll(".tag")];
+    // data-tags attribute (normalized, hyphenated) added to citation elements
+    const dataTags = (element.dataset.tags || "")
+      .split(",")
+      .map((t) => normalizeTag(t))
+      .filter(Boolean);
 
     // check if text content exists in element
     const hasText = (string) =>
@@ -62,7 +67,8 @@
         .includes(string);
     // check if text matches a tag in element
     const hasTag = (string) =>
-      tagElements.some((tag) => normalizeTag(tag.innerText) === string);
+      tagElements.some((tag) => normalizeTag(tag.innerText) === string) ||
+      dataTags.includes(string);
 
     // match logic
     return (
@@ -88,6 +94,14 @@
         x++;
       } else element.style.display = "none";
     }
+
+    // hide year sections with no visible results
+    document.querySelectorAll(".year-section").forEach((section) => {
+      const hasVisibleItem = [...section.querySelectorAll(elementSelector)].some(
+        (item) => item.style.display !== "none"
+      );
+      section.style.display = hasVisibleItem ? "" : "none";
+    });
 
     return [x, n, tags];
   };
