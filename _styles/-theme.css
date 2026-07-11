@@ -1,6 +1,6 @@
 [data-dark=false] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
+  --primary: rgb(183, 38, 84);
+  --secondary: rgb(227, 164, 184);
   --text: #000000;
   --background: #ffffff;
   --background-alt: #fafafa;
@@ -11,8 +11,8 @@
 }
 
 [data-dark=true] {
-  --primary: #0795d9;
-  --secondary: #075985;
+  --primary: rgb(183, 38, 84);
+  --secondary: rgb(227, 164, 184);
   --text: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
@@ -23,9 +23,9 @@
 }
 
 :root {
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Geomini", Roboto;
+  --heading: "Geomini", Roboto;
+  --body: "Open Sans", Roboto;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
