@@ -1,8 +1,8 @@
 ---
 title: Contact
 nav:
-  order: 6
-  tooltip: Email, address, and location
+  order: 5
+  tooltip: 
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
@@ -31,13 +31,14 @@ Rm 473, Bldg E8-3, Chungdae-ro 1, Seowon-gu, Cheongju, Korea
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %}Join the Team
 
-### Graduate Students: MS and PhD
+MIVLab is looking for self-motivated Master/Ph.D students and Undergraduate interns in Artificial Intelligence, Deep Learning, and Signal/Image Processing. If you would like to join our lab, please contact Prof. Yoo with a curriculum vitae (CV), and (unofficial) transcript(s).
 
-MIVLab is looking for self-motivated Master and Ph.D students in Artificial Intelligence, Deep Learning, and Signal/Image Processing. If you would like to join our lab, please contact Prof. Yoo to set up a time to discuss your interest and potential fit.
+MIVLab에 관심있는 석사/박사과정 지원학생 및 학부 인턴은 유채화 교수에게 연락바랍니다.
 
-#### Undergraduate Students
 
-If you are an undergraduate student and would like to do research at MIVLab, visit the MBZUAI Undergraduate Research Internship Program (UGRIP).
+장학금 관련 정보는 다음 링크를 참조:  [Scholarship](https://graduate.chungbuk.ac.kr/home/sub.php?menukey=10843)
+
+If you are an international student, please check below link for financial support information: [Scholarship](https://graduate.chungbuk.ac.kr/eng/sub.php?menukey=10951)
 
 {% capture col1 %}
 
@@ -61,19 +62,4 @@ If you are an undergraduate student and would like to do research at MIVLab, vis
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark=true %}
 
-{% capture col1 %}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-
-{% endcapture %}
-
-{% capture col3 %}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
