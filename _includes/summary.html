@@ -1,0 +1,27 @@
+<!-- Completed Projects 토글 배너 시작 -->
+<details class="project-details" style="margin: 20px 0; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; background: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.02); transition: all 0.3s ease;">
+  
+  <!-- 배너 타이틀 부분 (클릭하는 영역) -->
+  <summary style="display: flex; align-items: left; justify-content: space-between; padding: 15px 20px; background: #f8fafc; font-size: 1.3rem; font-weight: bold; color: #1e293b; cursor: pointer; list-style: none; outline: none; border-bottom: 1px solid transparent;">
+    <div style="display: flex; align-items: left; gap: 10px;">
+      Completed Projects
+    </div>
+    <span class="toggle-icon" style="font-size: 0.9rem; color: #94a3b8; transition: transform 0.3s;">▼ Click to expand</span>
+  </summary>
+
+  <!-- 펼쳐지는 리스트 내용 부분 -->
+  <div style="padding: 20px 25px; background: #ffffff; line-height: 1.6;" onclick="event.stopPropagation();">
+    <ul style="margin: 0; padding-left: 20px; color: #334155;">      
+      
+      {% for project in data %}
+      <li style="margin-bottom: 12px;">
+        <strong>{{ project.title }}</strong>, 
+        <span style="color: #64748b; font-size: 0.9rem;">
+          {{ project.institution }}, {{ project.period }} (Role: {{ project.role }})
+        </span>
+      </li>
+      {% endfor %}
+      
+    </ul>
+  </div>
+</details>

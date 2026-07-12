@@ -15,8 +15,10 @@
   {% assign data = year.items %}
 
   {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" | reverse %}
+    {{--}}
+    <div class="year-wrapper-block">
+      <h3 id="{{ year.name }}" class="year-heading-title">{{ year.name }}</h3>
+      {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
   {% for d in data %}
@@ -58,4 +60,69 @@
       width=d.width
     %}
   {% endfor %}
+
+  {% if years.size > 1 %}
+    </div> {% endif %}
 {% endfor %}
+
+
+<script>
+  (function() {
+    function checkAndHideEmptyYears() {
+      // 모든 연도별 묶음 블록을 가져옵니다.
+      document.querySelectorAll('.year-wrapper-block').forEach(block => {
+        const heading = block.querySelector('.year-heading-title');
+        
+        // 블록 내부의 모든 하위 자식 요소들을 탐색합니다.
+        const children = block.children;
+        let hasVisibleContent = false;
+        
+        for (let i = 0; i < children.length; i++) {
+          const child = children[i];
+          
+          // 연도 제목(h3) 자기 자신은 검사에서 제외합니다.
+          if (child === heading) continue;
+          
+          // 테마의 기존 JS가 엘리먼트를 숨겼는지 판단하는 기준 (클래스 hidden 혹은 display: none)
+          const isHiddenByTheme = child.classList.contains('hidden') || 
+                                  child.style.display === 'none' || 
+                                  child.closest('.hidden') !== null;
+          
+          // 화면에 실질적으로 크기를 가지고 노출되고 있는 논문 카드가 있다면 플래그를 켭니다.
+          if (child.offsetHeight > 0 && !isHiddenByTheme) {
+            hasVisibleContent = true;
+          }
+        }
+
+        // 보여지는 논문 카드가 하나도 없다면 연도 블록 전체를 화면에서 숨깁니다.
+        if (hasVisibleContent) {
+          block.style.display = '';
+        } else {
+          block.style.display = 'none';
+        }
+      });
+    }
+
+    // [이벤트 트리거 1] 브라우저 로드 완료 시 쿼리 스트링 대응 실행
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(checkAndHideEmptyYears, 150);
+    });
+
+    // [이벤트 트리거 2] 테마의 JS 필터링 로직이 화면 내 class나 style을 바꿀 때 실시간 감시
+    const observer = new MutationObserver(() => {
+      checkAndHideEmptyYears();
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['style', 'class'] // 스크립트에 의한 스타일/클래스 변화 추적
+    });
+
+    // [이벤트 트리거 3] URL 주소 뒤로가기/앞으로가기 등으로 검색 필터가 바뀔 때 대응
+    window.addEventListener('popstate', () => {
+      setTimeout(checkAndHideEmptyYears, 100);
+    });
+  })();
+</script>

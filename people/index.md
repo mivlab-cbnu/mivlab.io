@@ -43,5 +43,3 @@ nav:
 - Yohan Jang (25.9-26.2)
 - Dohee Kwon (25.3-26.2)
 
-{% include section.html %}
-

@@ -3,14 +3,18 @@
 #   image: images/publications/bioinformatics_cover.jpeg
 
 - id: doi:10.1109/TIP.2025.3570220
+  image: images/publication/tip2026.gif
   tags:
   - International journal
 
+
 - id: doi:10.1109/TBME.2022.3214269
+  image: images/publication/tbme2024.gif
   tags:
   - International journal
 
 - id: doi:10.1109/JBHI.2021.3103614
+  image: images/publication/jbhi2022.gif
   tags:
   - International journal
 
@@ -32,20 +36,21 @@
   - Georges El Fakhri
   - Je-Won Kang
   - Jonghye Woo
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/1203210/Unsupervised-domain-adaptation-for-segmentation-with-black-box-source-model/10.1117/12.2607895.short
   publisher: SPIE Medical Imaging
   date: '2022-02'
   tags:
   - International conference
 
-- title: Relevance Regularization of Convolutional Neural Network for Interpretable Classification
-  authors:
-  - Chaehwa Yoo
-  - Nayoung Kim
-  - Je-Won Kang
-  publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
-  date: '2019-06'
-  tags:
-  - International conference
+# - title: Relevance Regularization of Convolutional Neural Network for Interpretable Classification
+#   authors:
+#   - Chaehwa Yoo
+#   - Nayoung Kim
+#   - Je-Won Kang
+#   publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
+#   date: '2019-06'
+#   tags:
+#   - International conference
 
 - title: Training Compression Artifacts Reduction Network with Domain Adaptation
   authors:
@@ -53,6 +58,7 @@
   - Chaehwa Yoo
   - Je-Won Kang
   publisher: Applications of Digital Image Processing XLIV, International Society for Optics and Photonics
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11842/118420U/Training-compression-artifacts-reduction-network-with-domain-adaptation/10.1117/12.2597094.short
   date: '2021-08'
   tags:
   - International conference
@@ -68,6 +74,7 @@
   - Byoung Hoon Lee
   - Jung-Rok Lee
   publisher: ACS Sensors
+  image: images/publication/acs2026.gif 
   tags: 
   - International journal
 
@@ -81,6 +88,7 @@
   - Je-Won Kang
   - Jonghye Woo
   publisher: APSIPA Transactions on Signal and Information Processing
+  link: https://arxiv.org/abs/2208.07422
   date: '2022-05-01'
   tags:
   - International journal
@@ -96,6 +104,8 @@
   - Jonghye Woo
   publisher: Frontiers in Neuroscience
   date: '2022-06'
+  link: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.837646/full
+  image: https://www.frontiersin.org/api/ipx/f=webp/https://www.frontiersin.org/files/Articles/837646/xml-images/fnins-16-837646-g0001.webp
   tags:
   - International journal
 
@@ -104,6 +114,7 @@
   publisher: Korean Intellectual Property Office
   date: '2020'
   status: "Granted"
+  image: https://patentimages.storage.googleapis.com/16/a8/db/d58fc9a1ca5e5a/112019056381748-pat00032.png
   tags:
   - patents
 
@@ -112,6 +123,7 @@
   publisher: Korean Intellectual Property Office
   date: '2021'
   status: "Granted"
+  image: https://patentimages.storage.googleapis.com/c7/88/0e/046aa108b24dc9/112019119011636-pat00001.png
   tags:
   - patents
 
@@ -120,6 +132,7 @@
   publisher: United States Patent and Trademark Office
   date: '2022'
   status: "Granted (US); Filed (KR)"
+  image: https://patentimages.storage.googleapis.com/0e/5d/84/dd2be3d8cd0c96/US11516478-20221129-D00000.png
   tags:
   - patents
 
@@ -127,6 +140,7 @@
   title: Sleep Stage Prediction Method Using Deep Learning Model and Analysis Apparatus
   publisher: Korean Intellectual Property Office
   date: '2023'
+  image: https://patentimages.storage.googleapis.com/8a/96/75/e7efb45aacd080/R1020210093900.png
   status: "Granted"
   tags:
   - patents
@@ -134,6 +148,8 @@
 - id: patent:US18029022
   title: Method and Apparatus for Coding Feature Map based on Deep Learning in Multitasking System for Machine Vision
   publisher: United States Patent and Trademark Office
+  link: https://patents.google.com/patent/US20240054686A1/en
+  image: https://patentimages.storage.googleapis.com/64/e8/e1/622e3fb7d8464c/US20240054686A1-20240215-D00000.png
   date: '2021'
   status: "Filed"
   tags:
@@ -143,6 +159,7 @@
   title: Method and Apparatus for Coding Machine Vision Data using Feature Map Reduction
   publisher: United States Patent and Trademark Office
   date: '2022'
+  link: https://patents.google.com/patent/US12561846B2/enß 
   status: "Granted (US); Filed (KR)"
   tags:
   - patents

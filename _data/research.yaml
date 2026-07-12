@@ -11,7 +11,7 @@
   description: Robust AI focuses on developing secure, reliable, and high-efficient intelligence systems that can effectively learn, adapt, and collaborate under constraints such as data scarcity, bias, high computational and storage costs.
 
 - title: Safe AI
-  subtitle: |
+  subtitle: 
     Data-free Adaptation \n
     Model-free Adaptation \n
     Explainable AI \n
@@ -21,7 +21,7 @@
   description: Secure AI focuses on developing trustworthy, privacy-preserving, and transparent intelligence systems that can protect sensitive data and explain complex black-box models under strict security and regulatory demands.
 
 - title: Real-world Applications
-  subtitle: |
+  subtitle: 
     Healthcare & Medical AI \n
     Autonomous Driving \n
     Power & Smart Energy Systems \n

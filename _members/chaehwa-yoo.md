@@ -20,9 +20,8 @@ Previously, Dr. Yoo was a Postdoctoral Researcher at Ewha Womans University. She
 
 
 ## Contact
-Rm 362, Bldg E8-3, Chungdae-ro 1, Seowon-gu, Cheongju, Korea 
-
-+82 43 261 2421
+- Address: Rm 362, Bldg E8-3, Chungdae-ro 1, Seowon-gu, Cheongju, Korea 
+- Telephone: +82 43 261 2421
 
 ## Education
 

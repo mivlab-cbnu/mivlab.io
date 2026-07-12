@@ -15,6 +15,7 @@
   orcid: 0000-0001-9880-2850
   plugin: sources.py
   file: sources.yaml
+  image: images/publication/tip2026.gif
   tags:
   - International journal
 - id: doi:10.1109/TBME.2022.3214269
@@ -32,6 +33,7 @@
   orcid: 0000-0001-9880-2850
   plugin: sources.py
   file: sources.yaml
+  image: images/publication/tbme2024.gif
   tags:
   - International journal
 - id: doi:10.1109/JBHI.2021.3103614
@@ -47,6 +49,7 @@
   orcid: 0000-0001-9880-2850
   plugin: sources.py
   file: sources.yaml
+  image: images/publication/jbhi2022.gif
   tags:
   - International journal
 - id: doi:10.1117/12.2597094
@@ -61,7 +64,7 @@
   - Jonghye Woo
   publisher: SPIE Medical Imaging
   date: '2022-02-01'
-  link: https://doi.org/gr62vr
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/1203210/Unsupervised-domain-adaptation-for-segmentation-with-black-box-source-model/10.1117/12.2607895.short
   orcid: 0000-0001-9880-2850
   plugin: sources.py
   file: sources.yaml
@@ -94,18 +97,6 @@
   file: sources.yaml
   tags:
   - International conference
-- title: Relevance Regularization of Convolutional Neural Network for Interpretable
-    Classification
-  authors:
-  - Chaehwa Yoo
-  - Nayoung Kim
-  - Je-Won Kang
-  publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
-  date: '2019-06-01'
-  tags:
-  - International conference
-  plugin: sources.py
-  file: sources.yaml
 - title: Training Compression Artifacts Reduction Network with Domain Adaptation
   authors:
   - Yu-Jin Ham
@@ -113,6 +104,7 @@
   - Je-Won Kang
   publisher: Applications of Digital Image Processing XLIV, International Society
     for Optics and Photonics
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11842/118420U/Training-compression-artifacts-reduction-network-with-domain-adaptation/10.1117/12.2597094.short
   date: '2021-08-01'
   tags:
   - International conference
@@ -132,6 +124,7 @@
   publisher: ACS Sensors
   date: '2025-05-15'
   link: https://doi.org/hbsf47
+  image: images/publication/acs2026.gif
   tags:
   - International journal
   plugin: sources.py
@@ -146,6 +139,7 @@
   - Je-Won Kang
   - Jonghye Woo
   publisher: APSIPA Transactions on Signal and Information Processing
+  link: https://arxiv.org/abs/2208.07422
   date: '2022-05-01'
   tags:
   - International journal
@@ -162,6 +156,8 @@
   - Jonghye Woo
   publisher: Frontiers in Neuroscience
   date: '2022-06-01'
+  link: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.837646/full
+  image: https://www.frontiersin.org/api/ipx/f=webp/https://www.frontiersin.org/files/Articles/837646/xml-images/fnins-16-837646-g0001.webp
   tags:
   - International journal
   plugin: sources.py
@@ -174,6 +170,7 @@
   date: '2020-01-01'
   link: https://patents.google.com/patent/KR102157441/en
   status: Granted
+  image: https://patentimages.storage.googleapis.com/16/a8/db/d58fc9a1ca5e5a/112019056381748-pat00032.png
   tags:
   - patents
   plugin: sources.py
@@ -185,6 +182,7 @@
   date: '2021-01-01'
   link: https://patents.google.com/patent/KR102298699/en
   status: Granted
+  image: https://patentimages.storage.googleapis.com/c7/88/0e/046aa108b24dc9/112019119011636-pat00001.png
   tags:
   - patents
   plugin: sources.py
@@ -199,6 +197,7 @@
   date: '2022-01-01'
   link: https://patents.google.com/patent/US11516478/en
   status: Granted (US); Filed (KR)
+  image: https://patentimages.storage.googleapis.com/0e/5d/84/dd2be3d8cd0c96/US11516478-20221129-D00000.png
   tags:
   - patents
   plugin: sources.py
@@ -209,6 +208,7 @@
   publisher: Korean Intellectual Property Office
   date: '2023-01-01'
   link: https://patents.google.com/patent/KR102617046/en
+  image: https://patentimages.storage.googleapis.com/8a/96/75/e7efb45aacd080/R1020210093900.png
   status: Granted
   tags:
   - patents
@@ -220,7 +220,8 @@
   authors: []
   publisher: United States Patent and Trademark Office
   date: '2021-01-01'
-  link: https://www.google.com/patents/US18029022
+  link: https://patents.google.com/patent/US20240054686A1/en
+  image: https://patentimages.storage.googleapis.com/64/e8/e1/622e3fb7d8464c/US20240054686A1-20240215-D00000.png
   status: Filed
   tags:
   - patents
@@ -234,7 +235,7 @@
   - Seung Wook Park
   publisher: United States Patent and Trademark Office
   date: '2022-01-01'
-  link: https://patents.google.com/patent/US12561846/en
+  link: "https://patents.google.com/patent/US12561846B2/en\xDF"
   status: Granted (US); Filed (KR)
   tags:
   - patents

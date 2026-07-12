@@ -13,6 +13,7 @@ The Machine Intelligence and Vision Labaratory (MIVLab) is located at the [Schoo
 - Address: Rm 473, Bldg E8-3, Chungdae-ro 1, Seowon-gu, Cheongju, Korea 
 - Telephone: +82 43 261 2421 
 
+<div style="margin-top: 20px; margin-bottom: 10px;">
 {%
   include button.html
   type="address"
@@ -20,6 +21,7 @@ The Machine Intelligence and Vision Labaratory (MIVLab) is located at the [Schoo
   tooltip =""
   link="https://maps.app.goo.gl/jS66jkLmrw7B5CYn8"
 %}
+</div>
 
 {% include section.html %}
 
@@ -53,5 +55,4 @@ If you are an international student, please check the link for financial support
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
-
 
