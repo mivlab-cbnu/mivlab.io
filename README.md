@@ -5,6 +5,6 @@
 
   # mivlab-cbnu's Website
 
-  Visit **[mivlab-cbnu.github.io/mivlab](https://mivlab-cbnu.github.io/mivlab)** 🚀
+  Visit **[mivlab-cbnu.github.io](https://mivlab-cbnu.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
