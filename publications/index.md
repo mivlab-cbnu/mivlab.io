@@ -9,8 +9,6 @@ nav:
 
 <!-- We publish high-impact peer-reviewed research papers in leading journals across diverse topics from genomics, epigenomic, machine learning, cancer genomics, and science policy. -->
 
-{% include section.html %}
-
 <!-- ## All publications -->
 
 <div class="button-row">

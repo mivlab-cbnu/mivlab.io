@@ -34,13 +34,23 @@ MIVLab에 관심있는 석사/박사과정 지원학생 및 학부 인턴은 간
 - 장학금 관련 정보는 다음 링크를 참조:  [Scholarship](https://graduate.chungbuk.ac.kr/home/sub.php?menukey=10843) \\
 If you are an international student, please check the link for financial support information: [Scholarship](https://graduate.chungbuk.ac.kr/eng/sub.php?menukey=10951)
 
+
 {% capture col1 %}
 
 {%
   include figure.html
-  image="images/building1b.jpg"
+  image="images/campus.jpg"
   caption="CBNU Campus"
 %}
+
+<style>
+  img[src*="campus.jpg"], img[src*="eng.jpg"] {
+    width: 100% !important;
+    aspect-ratio: 16 / 9 !important; /* ★ 1:1 정사각형을 원하면 1 / 1 로 변경 가능 */
+    object-fit: cover !important;     /* 비율 유지하며 넘치는 영역 크롭 */
+    object-position: center;         /* 중앙 정렬 */
+  }
+</style>
 
 {% endcapture %}
 
@@ -48,11 +58,10 @@ If you are an international student, please check the link for financial support
 
 {%
   include figure.html
-  image="images/home/team.jpeg"
+  image="images/eng.jpg"
   caption="Engineering Building"
 %}
 
 {% endcapture %}
-
 {% include cols.html col1=col1 col2=col2 %}
 
